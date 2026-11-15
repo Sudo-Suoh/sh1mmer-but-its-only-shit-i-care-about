@@ -12,7 +12,7 @@ quicksilver() {
   echo "quicksilver: unenrollment for under v143"
   read -p "continue? [Y/n] (case sensitive because why not [make Y UPPERCASE])" continue
   case "$continue" in
-  Y) : ;;
+  [Y]) : ;;
   *) sleep 0 ;; #do nothing code
   esac
   vpd -i RW_VPD -s re_enrollment_key="$(hexdump -e '1/1 "%02x"' -v -n 32 /dev/urandom)"
@@ -60,11 +60,11 @@ menu() {
   echo "5. credits"
   read -p "-->  " select
   case "$select" in
-  1) : quicksilver ;;
-  2) : xpivot_root ;;
-  3) : emhudroll ;;
-  4) : shimboot ;;
-  5) : credits ;;
+  [1]) : quicksilver ;;
+  [2]) : xpivot_root ;;
+  [3]) : emhudroll ;;
+  [4]) : shimboot ;;
+  [5]) : credits ;;
   *) : echo "invalid option joe" ;;
   esac
 }
