@@ -65,6 +65,7 @@ menu() {
   3) : emhudroll ;;
   4) : shimboot ;;
   5) : credits ;;
+  *) : echo "invalid option joe" ;;
   esac
 }
 notice() {
