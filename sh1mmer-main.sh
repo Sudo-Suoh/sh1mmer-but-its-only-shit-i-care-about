@@ -7,6 +7,7 @@ credits() {
   echo "quicksilver by: emerwyi (idk discord bruh)"
   echo "emudhroll by: katie"
   echo "shimboot and pivot root shit by: ading2210 on github (idk discord bruh)"
+  echo "kristine for general help"
 }
 quicksilver() {
   echo "quicksilver: unenrollment for under v143"
