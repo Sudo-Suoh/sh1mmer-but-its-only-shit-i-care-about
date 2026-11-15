@@ -60,12 +60,12 @@ menu() {
   echo "5. credits"
   read -p "-->  " select
   case "$select" in
-  [1]) : quicksilver ;;
-  [2]) : xpivot_root ;;
-  [3]) : emhudroll ;;
-  [4]) : shimboot ;;
-  [5]) : credits ;;
-  *) : echo "invalid option joe" ;;
+  [1])  quicksilver ;;
+  [2])  xpivot_root ;;
+  [3])  emhudroll ;;
+  [4])  shimboot ;;
+  [5])  credits ;;
+  *)  echo "invalid option joe" ;;
   esac
 }
 notice() {
