@@ -7,7 +7,7 @@ here's some commands to run to build ts
 ```
 sudo bash download.sh #type board
 7z x board-legacy.zip
-sudo bash builder board.bin
+sudo bash builder.sh board.bin
 sudo dd if=board.bin of=/dev/sdX status=progress
 ```
 then you boot it
