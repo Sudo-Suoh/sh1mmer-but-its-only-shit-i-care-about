@@ -1,6 +1,6 @@
 ## Shxmm3r
 A modified version of sh1mmer where old payloads nobody cares about (cryptosmite, icarus, and calginosity) get deleted and payloads that matter stick around.
-No hate to mercury workshops sh1mmer, this is probably worst
+No hate to mercury workshops sh1mmer, this is probably worse
 
 ## Usage
 here's some commands to run to build ts
